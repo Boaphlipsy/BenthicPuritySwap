@@ -25,11 +25,10 @@ namespace PhilsBenthicPuritySwap
         public const string PluginGUID    = PluginAuthor + "." + PluginName;
         public const string PluginAuthor  = "Boaphil";
         public const string PluginName    = "PhilsBenthicPuritySwap";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         public static PluginInfo PInfo { get; private set; }
         
-        // The Awake() method is run at the very start when the game is initialized.
         public void Awake()
         {
             Log.Init(Logger);
